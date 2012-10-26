@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Wayne Robinson"]
-  s.date = "2012-08-28"
+  s.date = "2012-10-26"
   s.description = "Ruby library for the Xero accounting system API."
   s.email = "wayne.robinson@gmail.com"
   s.extra_rdoc_files = [
@@ -365,24 +365,24 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<builder>, [">= 2.1.2"])
-      s.add_runtime_dependency(%q<oauth>, ["= 0.4.5"])
+      s.add_runtime_dependency(%q<oauth>, ["= 0.4.6"])
       s.add_runtime_dependency(%q<activesupport>, [">= 0"])
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_runtime_dependency(%q<i18n>, [">= 0"])
       s.add_runtime_dependency(%q<builder>, [">= 2.1.2"])
-      s.add_runtime_dependency(%q<oauth>, [">= 0.3.6"])
+      s.add_runtime_dependency(%q<oauth>, [">= 0.4.6"])
       s.add_runtime_dependency(%q<activesupport>, [">= 0"])
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_development_dependency(%q<mocha>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
     else
       s.add_dependency(%q<builder>, [">= 2.1.2"])
-      s.add_dependency(%q<oauth>, ["= 0.4.5"])
+      s.add_dependency(%q<oauth>, ["= 0.4.6"])
       s.add_dependency(%q<activesupport>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<i18n>, [">= 0"])
       s.add_dependency(%q<builder>, [">= 2.1.2"])
-      s.add_dependency(%q<oauth>, [">= 0.3.6"])
+      s.add_dependency(%q<oauth>, [">= 0.4.6"])
       s.add_dependency(%q<activesupport>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<mocha>, [">= 0"])
@@ -390,12 +390,12 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<builder>, [">= 2.1.2"])
-    s.add_dependency(%q<oauth>, ["= 0.4.5"])
+    s.add_dependency(%q<oauth>, ["= 0.4.6"])
     s.add_dependency(%q<activesupport>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<i18n>, [">= 0"])
     s.add_dependency(%q<builder>, [">= 2.1.2"])
-    s.add_dependency(%q<oauth>, [">= 0.3.6"])
+    s.add_dependency(%q<oauth>, [">= 0.4.6"])
     s.add_dependency(%q<activesupport>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<mocha>, [">= 0"])

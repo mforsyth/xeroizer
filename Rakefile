@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "wayne.robinson@gmail.com"
   gem.authors = ["Wayne Robinson"]
   gem.add_runtime_dependency 'builder', '>= 2.1.2'
-  gem.add_runtime_dependency 'oauth',   '>= 0.3.6'
+  gem.add_runtime_dependency 'oauth',   '>= 0.4.6'
   gem.add_runtime_dependency 'activesupport'
   gem.add_runtime_dependency 'nokogiri'
   gem.add_development_dependency 'mocha'
